@@ -1,0 +1,53 @@
+{
+  "states": [
+    {
+      "id": "1",
+      "order": 0,
+      "name": "Todo",
+      "value": "Todo",
+      "color": "default"
+    },
+    {
+      "id": "2",
+      "order": 1,
+      "name": "In Progress",
+      "value": "InProgress",
+      "color": "indigo"
+    },
+    {
+      "id": "3",
+      "order": 2,
+      "name": "Completed",
+      "value": "Completed",
+      "color": "green"
+    }
+  ],
+  "todos": [
+    {
+      "id": "ab09",
+      "title": "asf",
+      "description": "fdsa",
+      "state": {
+        "id": "2",
+        "order": 1,
+        "name": "In Progress",
+        "value": "InProgress",
+        "color": "indigo"
+      },
+      "date": "2025-08-29T18:55:47.647Z"
+    },
+    {
+      "id": "2a84",
+      "title": "fdsa",
+      "description": "fdsa",
+      "state": {
+        "id": "3",
+        "order": 2,
+        "name": "Completed",
+        "value": "Completed",
+        "color": "green"
+      },
+      "date": "2025-08-29T18:55:14.409Z"
+    }
+  ]
+}
