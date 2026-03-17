@@ -1,8 +1,31 @@
-html, body, .v-application {
-  line-height: 1.5;
-  font-family: sans-serif;
-  background-color: #fafafa;
-  color: #212121;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body, .v-application {
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 50%, #f093fb10 100%);
+  background-attachment: fixed;
+  color: #1a1a2e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.v-application {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7ff 0%, #f0f4ff 50%, #f8f5ff 100%) !important;
+  background-attachment: fixed !important;
 }
